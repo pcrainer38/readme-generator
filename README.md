@@ -6,7 +6,7 @@ Every project needs a README. This command-line application helps the user to pr
 
 ## Table of Contents
 
-- [Installtion](#installation)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
@@ -23,7 +23,7 @@ I am running the code using Visual Studio Code and node.js.  Please, see the vid
 
 ## License
 
-This application is licensed under the MIT License.  Please see the LICENSE file for more information.
+This application is licensed under the MIT License.  Please, click on the badge below.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
