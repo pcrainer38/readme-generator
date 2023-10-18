@@ -15,8 +15,7 @@ function renderLicenseLink(license) {
   if (!license) {
     return '';
   } else {
-    return `[${license}](https://choosealicense.com/licenses/${license})
-    `;
+    return `[${license}](https://choosealicense.com/licenses/)`;
   }
 }
 
@@ -26,14 +25,11 @@ function renderLicenseSection(license) {
   if(!license) {
     return '';
   } else {
-    return `
-    ## [License](#table-of-contents)
-    The application is covered under the following license:
-    ${renderLicenseLink(license)}
-        `;
+    return `This application is covered under the following license:
+    ${renderLicenseLink(license)}`;
   }
 }
-renderLicenseSection();
+
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -42,7 +38,6 @@ function generateMarkdown(data) {
 
   ## Badge
   ${renderLicenseBadge(data.license)}
-
 
   ## Description 
   
@@ -70,7 +65,7 @@ function generateMarkdown(data) {
   
   ## License 
  
-  ${data.license}
+  ${renderLicenseSection(data.license)}
   
   ## Questions
   
