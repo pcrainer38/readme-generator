@@ -62,15 +62,13 @@ const questions = inquirer.prompt ([
         name: 'tests'
     }
     ]).then((response) => 
-    fs.writeFile('sampleREADME.md', `# ${response.title}\n\n## Description\n\n ${response.description}\n\n ## Table of Contents\n\n #### [Installation](#installation)\n\ #### [Usage](#usage)\n #### [Credits](#credits)\n #### [License](#license)\n #### [Questions](#questions)\n #### [Tests](#tests)\n\n ### Installation Instructions\n\n ${response.installation}\n\n### Usage\n\n ${response.instructions}\n\n### Credits\n\n ${response.credits}\n\n### License\n\n ${response.license}\n\n### Questions\n\n ${response.github}\n ${response.email}\n\n### Tests\n\n ${response.tests}`, (err) => err ? console.log(error) : console.log('success')));
+    fs.writeFile('sampleREADME.md', `# ${response.title}\n\n## Description\n\n ${response.description}\n\n ## Table of Contents\n\n [Installation](#installation)\n\ [Usage](#usage)\n [Credits](#credits)\n [License](#license)\n [Questions](#questions)\n [Tests](#tests)\n\n ## Installation Instructions\n\n ${response.installation}\n\n## Usage\n\n ${response.instructions}\n\n## Credits\n\n ${response.credits}\n\n## License\n\n ${response.license}\n\n## Questions\n\n ${response.github}\n ${response.email}\n\n### Tests\n\n ${response.tests}`, (err) => err ? console.log(error) : console.log('success')));
     
 }
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
    
 }
-
-
 
 
 // Function call to initialize app

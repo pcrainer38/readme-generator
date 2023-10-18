@@ -6,30 +6,30 @@
 
  ## Table of Contents
 
- #### [Installation](#installation)
- #### [Usage](#usage)
- #### [Credits](#credits)
- #### [License](#license)
- #### [Questions](#questions)
- #### [Tests](#tests)
+ [Installation](#installation)
+ [Usage](#usage)
+ [Credits](#credits)
+ [License](#license)
+ [Questions](#questions)
+ [Tests](#tests)
 
-  ### Installation Instructions
+ ## Installation Instructions
 
  none
 
-### Usage
+## Usage
 
  Enter the city for which you would like the weather. 
 
-### Credits
+## Credits
 
  none
 
-### License
+## License
 
  MIT License
 
-### Questions
+## Questions
 
  github.com/pcrainer38
  pammie_78704@yahoo.com
