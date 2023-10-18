@@ -1,39 +1,44 @@
-# README Generator
 
-## Description
+  # Weather Dashboard
 
- Every project needs a README.  This command-line application helps the user to create a quality README for their next project.
+  ## Badge
+  ![badge](https://img.shields.io/badge/license-MIT License-blue)
+    
 
- ## Table of Contents
 
- - [Installation](#installation)
- - [Usage](#usage)
- - [Credits](#credits)
- - [License](#license)
- - [Questions](#questions)
- - [Tests](#tests)
+  ## Description 
+  
+  This app provides the current weather and five day forecast for a given city.
 
- ## Installation Instructions
+  ## Table of Contents 
+  - [Installation](#installation) 
+  - [Usage](#usage) 
+  - [Credits](#credits) 
+  - [License](#license) 
+  - [Questions](#questions)
+  - [Tests](#tests)
 
- No steps to install the application but you will need access to a code editor like Visual Studio Code and node.js.
+  ## Installation Instructions 
+  
+  none
 
-## Usage
+  ## Usage 
+ 
+  Enter the city for which you would like the weather. 
 
- In node.js type node install.js and answer the questions that come up. Once complete a  README.md file will be generated.
-
-## Credits
-
- none
-
-## License
-
- MIT License
-
-## Questions
-
- github.com/pcrainer38
- pammie_78704@yahoo.com
-
-### Tests
-
- none
+  ## Credits   
+ 
+  none
+  
+  ## License 
+ 
+  MIT License
+  
+  ## Questions
+  
+  - pcrainer38
+  - pammie_78704@yahoo.com
+  
+   ## Tests 
+  
+   none

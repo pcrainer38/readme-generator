@@ -1,12 +1,14 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
+const path = require('path');
+const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create a function to initialize app
+
+
 // TODO: Create an array of questions for user input
-function init() {
-const questions = inquirer.prompt ([
+
+const questions =  [
     {
         type: 'input',
         message: 'What is your project\'s title?',
@@ -66,15 +68,22 @@ const questions = inquirer.prompt ([
         message: 'What type of tests have you created for your project and how do you run them?',
         name: 'tests'
     }
-    ]).then((response) => 
-    fs.writeFile('sampleREADME.md', `# ${response.title}\n\n## Description\n\n ${response.description}\n\n ## Table of Contents\n\n - [Installation](#installation)\n - [Usage](#usage)\n - [Credits](#credits)\n - [License](#license)\n - [Questions](#questions)\n - [Tests](#tests)\n\n ## Installation Instructions\n\n ${response.installation}\n\n## Usage\n\n ${response.instructions}\n\n## Credits\n\n ${response.credits}\n\n## License\n\n ${response.license}\n\n## Questions\n\n ${response.github}\n ${response.email}\n\n### Tests\n\n ${response.tests}`, (err) => err ? console.log(error) : console.log('success')));
-    
-}
+    ]
+  
 // TODO: Create a function to write README file
+
+
 function writeToFile(fileName, data) {
-   
+    return fs.writeFileSync(path.join(process.cwd(),fileName), data)
 }
 
+// TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(questions)
+        .then((response) => writeToFile('sampleREADME.md', generateMarkdown({...response})))
+        .then(() => console.log('Successfully wrote to README.md'))
+        .catch((err) => console.error(err));
+};
 
 // Function call to initialize app
 init();
