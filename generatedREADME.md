@@ -22,7 +22,7 @@
 
   ## Usage 
  
-  Enter the city for which you would like the weather. 
+  Enter the city for which you would like the weather.
 
   ## Credits   
  
