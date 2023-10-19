@@ -1,12 +1,12 @@
 
-  # README Generator
+  # Weather Dashboard
 
   ## Badge
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
   
-  Every project needs a quality README.  This app will help the user to generate a professional README for their next project. 
+  This application provides the current weather and a five day forecast for a given city.
 
   ## Table of Contents 
   - [Installation](#installation) 
@@ -18,11 +18,11 @@
 
   ## Installation Instructions 
   
-  You will need to clone the code from the rep and then run the program via VSCode and node.js.
+  none
 
   ## Usage 
  
-  In the integrated terminal in VSCode, type node index.js. Answer the questions that follow and the README will generate.
+  Enter the city for which you would like the weather. 
 
   ## Credits   
  
