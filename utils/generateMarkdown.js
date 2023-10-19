@@ -1,11 +1,22 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if(!license) {
-    return '';
-  } else {
-    return `![badge](https://img.shields.io/badge/license-${license})
-    `;
+  switch (license) {
+    case 'Apache License 2.0':
+      return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+      
+    case 'GNU General Public License v3.0':
+      return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]';
+      
+    case 'MIT License':
+      return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+      
+    case 'BSD 2-Clause "Simplified" License':
+      return '[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)';
+      
+    default:
+      return '';
+     
   }
 }
 
@@ -15,7 +26,7 @@ function renderLicenseLink(license) {
   if (!license) {
     return '';
   } else {
-    return `[${license}](https://choosealicense.com/licenses/)`;
+    return `[${license}](https://opensource.org/licenses/)`;
   }
 }
 

@@ -2,12 +2,11 @@
   # README Generator
 
   ## Badge
-  ![badge](https://img.shields.io/badge/license-MIT License)
-    
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
   
-  Every project needs a good, quality README.  This command-line app helps the user to produce a professional README for their next project.
+  Every project needs a quality README.  This app will help the user to generate a professional README for their next project. 
 
   ## Table of Contents 
   - [Installation](#installation) 
@@ -19,11 +18,11 @@
 
   ## Installation Instructions 
   
-  You will need to clone the source code from the repo and then use VSCode and node.js to run the program.
+  You will need to clone the code from the rep and then run the program via VSCode and node.js.
 
   ## Usage 
  
-  From the index.js file, open an integrated terminal and then type node index.js to start the program.  Answer the questions that follow and a  README file will be generated.
+  In the integrated terminal in VSCode, type node index.js. Answer the questions that follow and the README will generate.
 
   ## Credits   
  
@@ -32,7 +31,7 @@
   ## License 
  
   This application is covered under the following license:
-    [MIT License](https://choosealicense.com/licenses/)
+    [MIT License](https://opensource.org/licenses/)
   
   ## Questions
   
