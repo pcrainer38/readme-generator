@@ -6,7 +6,7 @@ Every project needs a README. This command-line application helps the user to pr
 
 ## Link to video demonstration
 
-https://watch.screencastify.com/v/VWMsJOyjotwsr9tWpQck
+https://drive.google.com/file/d/1ReS3d9_jqGrqJ-s__UJVymQP7bQkfz-C/view
 
 ## Table of Contents
 
