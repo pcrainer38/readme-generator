@@ -1,17 +1,17 @@
 
-  # Weather Dashboard
+  # svg-logo-maker
 
   ## Badge
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
   
-  This application provides the current weather and a five day forecast for a given city.
+  This application takes user data and creates a logo.
 
   ## Table of Contents 
   - [Installation](#installation) 
   - [Usage](#usage) 
-  - [Credits](#credits) 
+  - [Contributing](#contributing) 
   - [License](#license) 
   - [Questions](#questions)
   - [Tests](#tests)
@@ -22,9 +22,9 @@
 
   ## Usage 
  
-  Enter the city for which you would like the weather.
+  Type node index.js and then answer the questions that follow.
 
-  ## Credits   
+  ## Contributing   
  
   none
   
@@ -36,7 +36,7 @@
   ## Questions
   
   - github.com/pcrainer38
-  - pammie_78704@yahoo.com
+  - email@email.com
   
    ## Tests 
   
