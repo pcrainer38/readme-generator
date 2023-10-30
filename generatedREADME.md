@@ -1,12 +1,12 @@
 
-  # svg-logo-maker
+  # Employee Tracker
 
   ## Badge
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
   
-  This application takes user data and creates a logo.
+  This command-line application allows a person to view tables in the console that show employees, departments and employee roles.
 
   ## Table of Contents 
   - [Installation](#installation) 
@@ -18,15 +18,15 @@
 
   ## Installation Instructions 
   
-  none
+  You will need node.js to run this application.
 
   ## Usage 
  
-  Type node index.js and then answer the questions that follow.
+  In the command line type node index.js and then choose which action you would like to take.  If you are choosing to add or update a table, you will be presented with clarifying questions.
 
   ## Contributing   
  
-  none
+  I worked with tutor Joem Casusi.  He introduced me to the way to use an array to list the employee names when updating an employee role.
   
   ## License 
  
@@ -36,7 +36,7 @@
   ## Questions
   
   - github.com/pcrainer38
-  - email@email.com
+  - pammie_78704@yahoo.com
   
    ## Tests 
   
